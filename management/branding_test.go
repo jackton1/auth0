@@ -33,8 +33,6 @@ func TestBranding(t *testing.T) {
 
 	t.Run("Update", func(t *testing.T) {
 		brandingData, _ := json.Marshal(map[string]interface{}{
-			"logo_url":    "https://govfetch.com/img/logo/favicon.svg",
-			"favicon_url": "https://govfetch.com/img/logo/favicon.svg",
 			"colors": map[string]string{
 				"primary":         "#006E75",
 				"page_background": "#E4E4E7",
