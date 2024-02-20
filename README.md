@@ -11,6 +11,7 @@ Auth0 API SDK
 go get -u github.com/jackton1/auth0
 ```
 
+
 ## Usage
 
 ```golang
