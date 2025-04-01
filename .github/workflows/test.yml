@@ -46,7 +46,7 @@ jobs:
           AUTH0_CLIENT_SECRET: ${{ secrets.AUTH0_CLIENT_SECRET }}
 
       - name: Go Coverage Badge
-        uses: tj-actions/coverage-badge-go@v2
+        uses: tj-actions/coverage-badge-go@v3
         with:
           filename: coverage.out
 
